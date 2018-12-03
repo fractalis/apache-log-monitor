@@ -33,11 +33,3 @@ def test_alert_clear():
 
     # Test subsequent checkForAlert returns ALERT_NONE
     assert(alerts.checkForAlert() == Alerts.ALERT_NONE)
-
-
-
-def inc(x):
-    return x+1
-
-def test_inc():
-    assert inc(3) == 4
